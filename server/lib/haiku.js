@@ -1,25 +1,25 @@
 const adjs = [
-  'autumn', 'hidden', 'bitter', 'misty', 'silent', 'empty', 'dry', 'dark',
-  'summer', 'icy', 'delicate', 'quiet', 'white', 'cool', 'spring', 'winter',
-  'patient', 'twilight', 'dawn', 'crimson', 'wispy', 'weathered', 'blue',
-  'billowing', 'broken', 'cold', 'damp', 'falling', 'frosty', 'green',
-  'long', 'late', 'lingering', 'bold', 'little', 'morning', 'muddy', 'old',
-  'red', 'rough', 'still', 'small', 'sparkling', 'throbbing', 'shy',
-  'wandering', 'withered', 'wild', 'black', 'young', 'holy', 'solitary',
-  'fragrant', 'aged', 'snowy', 'proud', 'floral', 'restless', 'divine',
-  'polished', 'ancient', 'purple', 'lively', 'nameless'
+    'sonbahar', 'gizli', 'acı', 'sisli', 'sessiz', 'boş', 'kuru', 'karanlık',
+    'yaz', 'buzlu', 'narin', 'sessiz', 'beyaz', 'serin', 'ilkbahar', 'kış',
+    'sabırlı', 'alacakaranlık', 'şafak', 'kızıl', 'ince', 'yıpranmış', 'mavi',
+    'dalgalı', 'kırık', 'soğuk', 'nemli', 'düşüyor', 'buzlu', 'yeşil',
+    'uzun', 'geç', 'kalan', 'cesur', 'küçük', 'sabah', 'çamurlu', 'eski',
+    'kırmızı', 'sert', 'hareketsiz', 'küçük', 'parlak', 'zonklayan', 'utangaç',
+    'Gezgin', 'solmuş', 'vahşi', 'siyah', 'genç', 'kutsal', 'yalnız',
+    'Kokulu', 'yaşlı', 'karlı', 'gururlu', 'çiçekli', 'huzursuz', 'ilahi',
+    'cilalı', 'eski', 'mor', 'canlı', 'isimsiz'
 ];
 
 const nouns = [
-  'waterfall', 'river', 'breeze', 'moon', 'rain', 'wind', 'sea', 'morning',
-  'snow', 'lake', 'sunset', 'pine', 'shadow', 'leaf', 'dawn', 'glitter',
-  'forest', 'hill', 'cloud', 'meadow', 'sun', 'glade', 'bird', 'brook',
-  'butterfly', 'bush', 'dew', 'dust', 'field', 'fire', 'flower', 'firefly',
-  'feather', 'grass', 'haze', 'mountain', 'night', 'pond', 'darkness',
-  'snowflake', 'silence', 'sound', 'sky', 'shape', 'surf', 'thunder',
-  'violet', 'water', 'wildflower', 'wave', 'water', 'resonance', 'sun',
-  'wood', 'dream', 'cherry', 'tree', 'fog', 'frost', 'voice', 'paper',
-  'frog', 'smoke', 'star'
+    'şelale', 'nehir', 'esinti', 'ay', 'yağmur', 'rüzgar', 'deniz', 'sabah',
+    'kar', 'göl', 'gün batımı', 'çam', 'gölge', 'yaprak', 'şafak', 'parıltı',
+    'orman', 'tepe', 'bulut', 'çayır', 'güneş', 'açıklık', 'kuş', 'dere',
+    'kelebek', 'çalı', 'çiy', 'toz', 'tarla', 'ateş', 'çiçek', 'ateşböceği',
+    'tüy', 'çim', 'pus', 'dağ', 'gece', 'gölet', 'karanlık',
+    'kar tanesi', 'sessizlik', 'ses', 'gökyüzü', 'şekil', 'sörf', 'gök gürültüsü',
+    'menekşe', 'su', 'kır çiçeği', 'dalga', 'su', 'rezonans', 'güneş',
+    'ahşap', 'rüya', 'kiraz', 'ağaç', 'sis', 'don', 'ses', 'kağıt',
+    'kurbağa', 'duman', 'yıldız'
 ];
 
 module.exports = () => {

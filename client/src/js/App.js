@@ -72,7 +72,7 @@ class App extends Component {
   render() {
     const { callFrom, callModal, callWindow, localSrc, peerSrc } = this.state;
     return (
-      <div>
+      <div style={{height: "100%"}}>
         <MainWindow startCall={this.startCallHandler} />
         {!_.isEmpty(this.config) && (
           <CallWindow

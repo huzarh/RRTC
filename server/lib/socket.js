@@ -2,7 +2,7 @@ const io = require('socket.io');
 const users = require('./users');
 
 /**
- * Initialize when a connection is made
+ * /------------------???------------------/
  * @param {SocketIO.Socket} socket
  */
 function initSocket(socket) {
@@ -11,12 +11,14 @@ function initSocket(socket) {
     .on('init', async () => {
       id = await users.create(socket);
       if (id) {
+        console.log("hazir signal-->",id)
         socket.emit('init', { id });
       } else {
         socket.emit('error', { message: 'Failed to generating user id' });
       }
     })
     .on('request', (data) => {
+      console.log('req---> ',data)
       const receiver = users.get(data.to);
       if (receiver) {
         receiver.emit('request', { from: id });
